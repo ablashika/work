@@ -1,0 +1,59 @@
+
+.cards{
+  --bs-card-border-color: #f9f7fb;
+  background-color: #d25aa2;
+  color: white;
+}
+/* p.card-text {
+  /* color: rgb(78, 136, 198) */
+
+  
+
+.program-cards{
+  --bs-card-height: 300px;
+  width:400px;
+  margin: 10px;
+  border: none;
+  background-color: #8a73b3;
+  color: white;
+  border-radius: 0px;
+  height: 300px;
+}
+@media screen and (max-width: 767px) {
+  .custom-blue-text {
+    margin-top: 1rem;
+    
+  }
+
+  .program-cards{
+    --bs-card-height: 300px;
+    width:100%;
+    margin: 20px;
+    border: none;
+    background-color: #8a73b3;
+    color: white;
+    border-radius: 0px;
+    height: 450px;
+    padding: 20px;
+    /* justify-content: center; */
+    /* align-items: center;
+     */
+  }
+  
+}
+
+@media screen and (max-width: 762px) {
+  .program-cards{
+    --bs-card-height: 300px;
+    width:100%;
+    /* width:400px; */
+    padding: 20px;
+    border: none;
+    background-color: #8a73b3;
+    color: white;
+    border-radius: 0px;
+    height: 450px;
+    
+  }
+  
+}

@@ -1,0 +1,24 @@
+html,
+body {
+  font-family: 'Quicksand', sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: var(--primary-blue);
+}
+
+.section-container {
+  padding: 4rem 0;
+  border-bottom: 1px solid lighten(var(--primary-blue), 40%);
+}
+
+.main-section-heading {
+  color: var(--primary-red);
+  margin: 1rem 0 3rem 0;
+}
+
+.custom-blue-text {
+    color: rgba(var(--primary-blue), 0.8); /* Darken by reducing opacity */
+  }
+  

@@ -1,0 +1,22 @@
+.video-card{
+    padding: 20px;
+    height: 700px;
+    background-color: #f9f7fb;
+    
+}
+
+.flex-direct{
+    display: flex;
+     flex-direction: column;
+}
+
+
+@media screen and (max-width: 762px) {
+    
+    .video-card{
+        padding: 20px;
+        height: 1200px;
+        background-color: #f9f7fb;
+        
+    }
+  }

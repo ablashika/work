@@ -1,0 +1,30 @@
+.plans-intro .main-section-heading p {
+    color: #212529;
+    margin: 1rem auto 0 auto;
+    max-width: 840px;
+  }
+  
+  .plans-intro .card {
+    border: 1px solid #e8c727; /* lighten($primary-purple, 40) */
+    margin: 1rem 0;
+  }
+  
+  .plans-intro .card .card-header__first {
+    background-color: #d25aa2; /* $primary-pink */
+    color: white;
+  }
+  
+  .plans-intro .card .card-header__second {
+    background-color: #4e88c6; /* $primary-blue */
+    color: white;
+  }
+  
+  .plans-intro .card .card-header__third {
+    background-color: #8a73b3; /* $primary-purple */
+    color: white;
+  }
+  
+  .plans-intro .card .card-header__fourth {
+    background-color: #ea7e27; /* $primary-orange */
+    color: white;
+  }

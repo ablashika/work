@@ -1,0 +1,29 @@
+.demo-day-section {
+  .demo-day-section__photos {
+    padding: 1rem 2rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .custom-blue-text {
+    margin-top: 1rem;
+  }
+  .video-text {
+    height: 400px;
+    height: 400px;
+    padding: 20px;
+  }
+
+  .demo-day-section{
+    padding: 0px;
+  }
+ /* .text-center{
+ } */
+
+  /* .demo-day-section {
+    .demo-day-section__photos {
+      padding:0px;
+      margin: 0px;
+    }
+  } */
+}

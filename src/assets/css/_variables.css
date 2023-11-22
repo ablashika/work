@@ -1,0 +1,81 @@
+/* brand colors */
+:root {
+    --primary-red: #eb4b6a;
+    --primary-pink: #d25aa2;
+    --primary-green: #36ba96;
+    --primary-blue: #4e88c6;
+    --primary-purple: #8a73b3;
+    --primary-yellow: #e8c727;
+    --primary-orange: #ea7e27;
+  }
+  
+  /* MIXINS */
+  /* buttons */
+  .btn-custom-primary-large {
+    box-shadow: 0 0.3125rem 0.875rem 0.0625rem rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0.3125rem 0.875rem 0.0625rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin: 1.5rem 0.5rem;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    background-color: var(--primary-red);
+    border: 1px solid transparent;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 0.5rem 2rem;
+  }
+  
+  .btn-custom-primary-normal {
+    box-shadow: 0 0.3125rem 0.875rem 0.0625rem rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0.3125rem 0.875rem 0.0625rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin: 1.5rem 0.5rem;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    background-color: var(--primary-red);
+    border: 1px solid transparent;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.5rem 1.5rem;
+  }
+  
+  .btn-custom-primary-small {
+    box-shadow: 0 0.3125rem 0.875rem 0.0625rem rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0.3125rem 0.875rem 0.0625rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin: 1.5rem 0.5rem;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    background-color: var(--primary-red);
+    border: 1px solid transparent;
+    color: white;
+    font-size: 0.6rem;
+    font-weight: 300;
+    padding: 0.3rem 1rem;
+  }
+  
+  .btn-custom-primary-large:hover {
+    background-color: darken(var(--primary-red), 10);
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  
+  .btn-custom-primary-normal:hover {
+    background-color: darken(var(--primary-red), 10);
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  
+  .btn-custom-primary-small:hover {
+    background-color: darken(var(--primary-red), 10);
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  
+  /* ... (similar styles for other buttons) */
+  

@@ -1,0 +1,114 @@
+.home-hero-section {
+  .slider-wrapper {
+    background-size: cover !important;
+    height: 80vh;
+    overflow: hidden;
+    padding: 0px;
+  }
+
+  .slider-content {
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(transparent),
+      to(rgba(0, 0, 0, 0.8))
+    );
+    background: linear-gradient(transparent, rgba(24, 18, 18, 0.6));
+    height: 80vh;
+    overflow: hidden;
+  }
+
+  .slider-content .inner {
+    padding: 0 70px 0 70px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+
+    .hero-list {
+      color: white;
+    }
+  }
+
+  .slider-content .inner h3 {
+    font-weight: 900;
+    margin: 0 0;
+    max-width: 600px;
+    color: #ffffff;
+    font-size: 55px;
+    line-height: 1.2;
+  }
+
+  .slider-content .inner .list-items {
+    color: #ffffff;
+    line-height: 1.5;
+    max-width: 550px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .slider-content .inner .hero-announcement {
+    margin: 1rem 0;
+    color: white;
+  }
+
+  .slider-content section {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  @media (max-height: 500px) {
+    .slider-wrapper,
+    .slide {
+      height: calc(100vh - 75px);
+    }
+    .slider-content .inner p {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .slider-wrapper,
+    .slide {
+      height: calc(80vh - 75px);
+    }
+    .slider-content .inner h3 {
+      font-size: 28px;
+      line-height: 1;
+    }
+    .slider-content .inner p {
+      font-size: 0.8rem;
+    }
+    .slider-content .inner .list-items {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+  }
+
+  @media (max-height: 600px) {
+    .slider-content .inner h3 {
+      font-size: 28px;
+      line-height: 1.2;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .home-hero-section .slider-content .inner {
+    padding: 0 20px 0 30px;
+    top: 50%;
+  }
+}
+
+a{
+  
+    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+    text-decoration: none;
+
+}

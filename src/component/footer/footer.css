@@ -1,0 +1,35 @@
+/* @import '../../assets/css/variables'; */
+
+.footer {
+    background-color: white;
+    border-top: 1px solid  #36ba96; /* Replace with the actual color value */
+    min-height: 8rem;
+    padding: 3rem 5rem;
+}
+
+.footer .logo-img {
+    height: 50px;
+}
+
+.footer-content .footer-content__links {
+    padding-inline-start: 10px;
+}
+
+.footer-content .footer-content__links li {
+    list-style: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer {
+        min-height: 4rem;
+        padding: 2rem 2rem;
+    }
+
+    .footer .logo-img {
+        margin-bottom: 1.5rem;
+    }
+}
+
+a {
+    color: #4e88c6;
+  }
